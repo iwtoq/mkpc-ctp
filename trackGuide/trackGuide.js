@@ -3,7 +3,7 @@ const tracks = {
     trackImage: "media/GBA_Mario_Circuit/image.png",
     trackType: "Runner/Bagger",
     strategyDescription:
-      "Running: I suggest you to run that track if you start in 1st or even 2nd because it's one of the shortest tracks, meaning that you have low probabilities to take a blue shell or get hit by a shock. This should be an advantage to run it if you can take the 3 shroomless cuts. The 1st one is a bit hard but even if you fail it, it will remain faster than taking the main road.\n\nBagging: You can choose to bag this track and come back with items due to the cuts, it can be op if you manage to pull good items and keep your shrooms until the lap 3. You should bag this track if you start in lower positions, you can also bag behind the line because there is an item box in front of the boost in the alternative path, thus giving you good items instantly.",
+      "Running: I suggest you to run that track if you start in 1st or even 2nd because it's one of the shortest tracks, meaning that you have low probabilities to take a blue shell or get hit by a shock. This should be an advantage to run it if you can take the 3 shroomless cuts. The 1st one is a bit hard but even if you fail it, it will remain faster than taking the main road.\n\nBagging: You can choose to bag this track and come back with items due to the cuts, it can be op if you manage to pull good items and keep your shrooms until lap 3. You should bag this track if you start in lower positions, you can also bag behind the line because there is an item box in front of the boost in the alternative path, thus giving you good items instantly.",
     shortcuts: [
       {
         text: "Take the alternative path and start a drift while taking the boost and then release it in the middle of the off road to pass the area and get back to the road.",
@@ -38,7 +38,7 @@ const tracks = {
     ],
     billSpots: [],
   },
-  "secret": {
+  "": {
     trackImage: "media/test_image.png",
     trackType: "trackType2",
     strategyDescription: "strategy2\n new line test1",
