@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CT Project Track Guide</title>
+    <link rel="stylesheet" href="trackGuide.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="panel1">
+            <h1>MKPC CT Project Track Guide</h1>
+        </div>
+    </header>
+
+    <div class="panel">
+        <button id="strategyBtn">Strategy</button>
+        <button id="shortcutsBtn">Shortcuts</button>
+        <button id="billSpotsBtn">Bill Spots</button>
+    </div>
+
+    <div class="panel">
+        <input type="text" id="trackSearch" placeholder="Search" autocomplete="off">
+        <ul id="suggestionList"></ul>
+    </div>
+
+    <main id="results" style="display: none;">
+        <div class="strategy">
+            <img class="track-image" style="display: none; width: 100%; height: auto;">
+            <b class="track-name" style="display: none;"></b>
+            <p class="track-type"><b>Track Type</b> : </p>
+            <p class="strategy-description"></p>
+        </div>
+        <div class="shortcuts" style="display: none;"></div>
+        <div class="bill-spots" style="display: none;"></div>
+
+    </main>
+
+    <script src="trackGuide.js"></script>
+</body>
+
+</html>

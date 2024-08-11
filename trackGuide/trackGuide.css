@@ -1,0 +1,119 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #a4d3ff;
+    margin: 0;
+    padding: 10px;
+}
+
+header,
+.panel,
+.strategy {
+    text-align: center;
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 335px;
+    margin: 10px auto;
+}
+
+main {
+    text-align: center;
+    max-width: 355px;
+    margin: 10px auto;
+}
+
+header {
+    margin: 0 auto;
+}
+
+h1 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: bold;
+    color: #007bff;
+}
+
+.track-name {
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #007bff;
+}
+
+.strategy-description,
+.shortcut-description,
+.bullet-description {
+    font-size: 16px;
+    border-top: 1px solid hsl(0, 0%, 80%);
+    padding-top: 8px;
+    padding-bottom: 0;
+    color: #333333;
+}
+
+input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 10px auto;
+    border: 1px solid #007bff;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+
+button {
+    margin: 5px;
+    padding: 8px 15px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+button:active {
+    transform: translateY(2px);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+#suggestionList {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    max-height: 200px;
+    overflow-y: auto;
+    background-color: #fff;
+}
+
+#suggestionList li {
+    width: calc(100% - 20px);
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#suggestionList li:hover {
+    background-color: #e0f0ff;
+    color: #333;
+}
+
+video,
+img {
+    display: block;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    padding: 0;
+    margin-bottom: 3px;
+}
