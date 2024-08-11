@@ -38,7 +38,7 @@ const tracks = {
     ],
     billSpots: [],
   },
-  "": {
+  "secret": {
     trackImage: "media/test_image.png",
     trackType: "trackType2",
     strategyDescription: "strategy2\n new line test1",
@@ -217,7 +217,11 @@ function showContent(type, trackName) {
         img.src = shortcut.frame;
         img.style.width = "100%";
         img.style.cursor = "pointer";
-        img.onclick = () => showVideo(shortcut.video, img);
+
+        const video = document.createElement("video");
+        video.src = shortcut.video;
+        video.preload = "auto";
+        img.onclick = () => showVideo(video, img);
 
         panel.appendChild(img);
         shortcutsDiv.appendChild(panel);
@@ -242,7 +246,11 @@ function showContent(type, trackName) {
         img.src = spot.frame;
         img.style.width = "100%";
         img.style.cursor = "pointer";
-        img.onclick = () => showVideo(spot.video, img);
+
+        const video = document.createElement("video");
+        video.src = spot.video;
+        video.preload = "auto";
+        img.onclick = () => showVideo(video, img);
 
         panel.appendChild(img);
         billSpotsDiv.appendChild(panel);
@@ -265,9 +273,7 @@ function showContent(type, trackName) {
   }
 }
 
-function showVideo(videoSrc, imgElement) {
-  const video = document.createElement("video");
-  video.src = videoSrc;
+function showVideo(video, imgElement) {
   video.controls = false;
   video.style.width = "100%";
   video.style.height = imgElement.clientHeight + "px";
