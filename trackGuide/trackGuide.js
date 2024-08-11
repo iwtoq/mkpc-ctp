@@ -1,34 +1,44 @@
 const tracks = {
-  track1: {
-    trackImage: "media/test_image.png",
-    trackType: "trackType1",
-    strategyDescription: "strategy1",
+  "GBA Mario Circuit": {
+    trackImage: "media/GBA_Mario_Circuit/image.png",
+    trackType: "Runner/Bagger",
+    strategyDescription:
+      "Running: I suggest you to run that track if you start in 1st or even 2nd because it's one of the shortest tracks, meaning that you have low probabilities to take a blue shell or get hit by a shock. This should be an advantage to run it if you can take the 3 shroomless cuts. The 1st one is a bit hard but even if you fail it, it will remain faster than taking the main road.\n\nBagging: You can choose to bag this track and come back with items due to the cuts, it can be op if you manage to pull good items and keep your shrooms until the lap 3. You should bag this track if you start in lower positions, you can also bag behind the line because there is an item box in front of the boost in the alternative path, thus giving you good items instantly.",
     shortcuts: [
       {
-        text: "shortcut1",
-        video: "media/test_video.mp4",
-        frame: "media/test_image.png",
+        text: "Take the alternative path and start a drift while taking the boost and then release it in the middle of the off road to pass the area and get back to the road.",
+        video: "media/GBA_Mario_Circuit/nisc1.mp4",
+        frame: "media/GBA_Mario_Circuit/nisc1.png",
       },
       {
-        text: "shortcut2",
-        video: "media/test_video.mp4",
-        frame: "media/test_image.png",
+        text: "Just release a drift to the right and you will get to the road.",
+        video: "media/GBA_Mario_Circuit/nisc2.mp4",
+        frame: "media/GBA_Mario_Circuit/nisc2.png",
+      },
+      {
+        text: "Release a smt and hop, then you can cut a bit and take a better line that way at the end instead of taking the whole route.",
+        video: "media/GBA_Mario_Circuit/nisc3.mp4",
+        frame: "media/GBA_Mario_Circuit/nisc3.png",
+      },
+      {
+        text: "",
+        video: "media/GBA_Mario_Circuit/sc1.mp4",
+        frame: "media/GBA_Mario_Circuit/sc1.png",
+      },
+      {
+        text: "",
+        video: "media/GBA_Mario_Circuit/sc2.mp4",
+        frame: "media/GBA_Mario_Circuit/sc2.png",
+      },
+      {
+        text: "",
+        video: "media/GBA_Mario_Circuit/sc3.mp4",
+        frame: "media/GBA_Mario_Circuit/sc3.png",
       },
     ],
-    billSpots: [
-      {
-        text: "billSpot1",
-        video: "media/test_video.mp4",
-        frame: "media/test_image.png",
-      },
-      {
-        text: "billSpot2",
-        video: "media/test_video.mp4",
-        frame: "media/test_image.png",
-      },
-    ],
+    billSpots: [],
   },
-  track2: {
+  "": {
     trackImage: "media/test_image.png",
     trackType: "trackType2",
     strategyDescription: "strategy2\n new line test1",
@@ -194,11 +204,14 @@ function showContent(type, trackName) {
         const panel = document.createElement("div");
         panel.classList.add("panel");
 
-        const text = document.createElement("p");
-        text.innerHTML = shortcut.text.replace(/\n/g, "<br>");
-        text.style.textAlign = "center";
-        text.style.marginBottom = "15px";
-        text.style.marginTop = "5px";
+        if (shortcut.text != "") {
+          const text = document.createElement("p");
+          text.innerHTML = shortcut.text.replace(/\n/g, "<br>");
+          text.style.textAlign = "center";
+          text.style.marginBottom = "15px";
+          text.style.marginTop = "5px";
+          panel.appendChild(text);
+        }
 
         const img = document.createElement("img");
         img.src = shortcut.frame;
@@ -206,7 +219,6 @@ function showContent(type, trackName) {
         img.style.cursor = "pointer";
         img.onclick = () => showVideo(shortcut.video, img);
 
-        panel.appendChild(text);
         panel.appendChild(img);
         shortcutsDiv.appendChild(panel);
       });
@@ -217,11 +229,14 @@ function showContent(type, trackName) {
         const panel = document.createElement("div");
         panel.classList.add("panel");
 
-        const text = document.createElement("p");
-        text.innerHTML = spot.text.replace(/\n/g, "<br>");
-        text.style.textAlign = "center";
-        text.style.marginBottom = "15px";
-        text.style.marginTop = "5px";
+        if (spot.text != "") {
+          const text = document.createElement("p");
+          text.innerHTML = spot.text.replace(/\n/g, "<br>");
+          text.style.textAlign = "center";
+          text.style.marginBottom = "15px";
+          text.style.marginTop = "5px";
+          panel.appendChild(text);
+        }
 
         const img = document.createElement("img");
         img.src = spot.frame;
@@ -229,7 +244,6 @@ function showContent(type, trackName) {
         img.style.cursor = "pointer";
         img.onclick = () => showVideo(spot.video, img);
 
-        panel.appendChild(text);
         panel.appendChild(img);
         billSpotsDiv.appendChild(panel);
       });
