@@ -8,62 +8,57 @@ const tracks = {
       {
         text: "Take the alternative path and start a drift while taking the boost and then release it in the middle of the off road to pass the area and get back to the road.",
         video: "media/GBA_Mario_Circuit/nisc1.mp4",
-        frame: "media/GBA_Mario_Circuit/nisc1.png",
+        frame: "media/GBA_Mario_Circuit/nisc1.jpg",
       },
       {
         text: "Just release a drift to the right and you will get to the road.",
         video: "media/GBA_Mario_Circuit/nisc2.mp4",
-        frame: "media/GBA_Mario_Circuit/nisc2.png",
+        frame: "media/GBA_Mario_Circuit/nisc2.jpg",
       },
       {
         text: "Release a smt and hop, then you can cut a bit and take a better line that way at the end instead of taking the whole route.",
         video: "media/GBA_Mario_Circuit/nisc3.mp4",
-        frame: "media/GBA_Mario_Circuit/nisc3.png",
+        frame: "media/GBA_Mario_Circuit/nisc3.jpg",
       },
       {
         text: "",
         video: "media/GBA_Mario_Circuit/sc1.mp4",
-        frame: "media/GBA_Mario_Circuit/sc1.png",
+        frame: "media/GBA_Mario_Circuit/sc1.jpg",
       },
       {
         text: "",
         video: "media/GBA_Mario_Circuit/sc2.mp4",
-        frame: "media/GBA_Mario_Circuit/sc2.png",
+        frame: "media/GBA_Mario_Circuit/sc2.jpg",
       },
       {
         text: "",
         video: "media/GBA_Mario_Circuit/sc3.mp4",
-        frame: "media/GBA_Mario_Circuit/sc3.png",
+        frame: "media/GBA_Mario_Circuit/sc3.jpg",
       },
     ],
     billSpots: [],
   },
-  "": {
-    trackImage: "media/test_image.png",
-    trackType: "trackType2",
-    strategyDescription: "strategy2\n new line test1",
+  "GCN Dino Dino Jungle": {
+    trackImage: "media/GCN_Dino_Dino_Jungle/image.png",
+    trackType: "Runner/Bagger",
+    strategyDescription: "Running: I suggest you to run that track if you start in 1st or even 2nd, there are multiple shroomless cuts here as well that can lead you to run well. There also is a cannon in a track meaning that if there is a blue shell you might be able to dodge it in time in the cannon therefore giving you more chances to run peacefully the track. However be careful of the shocks because getting target shock'd in the middle of the shortcut in the cave section is very awkward.\n\nBagging: Multiple paths on this track leading you to be able to bag properly, you can start bagging at 1st boxes already and then if you want to increase the bagging, take one of the purple routes to be even further from 1st and then getting good items such as pulling the shock. I recommend you to not bag too much though because it can be a bit hard to come back if you're left too far behind, you should at least start to come back like mid lap 2 because there are no cuts on this track therefore making it hard to come back. If you have a shock, the best way to play it would be to target shock 1st or the people leading in general while they take the cut in the cave because target shocking people here is excellent.",
     shortcuts: [
       {
-        text: "shortcut3\n new line test2",
-        video: "media/test_video.mp4",
-        frame: "media/test_image.png",
+        text: "This is the fastest path through that section. The easiest way to take it is to hop and then start a drift to avoid sliding out",
+        video: "media/GCN_Dino_Dino_Jungle/nisc1.mp4",
+        frame: "media/GCN_Dino_Dino_Jungle/nisc1.jpg",
       },
       {
-        text: "shortcut4",
-        video: "media/test_video.mp4",
-        frame: "media/test_image.png",
+        text: "Release a smt into the off road and hop out. Then take the rest of the shortcut.",
+        video: "media/GCN_Dino_Dino_Jungle/nisc2.mp4",
+        frame: "media/GCN_Dino_Dino_Jungle/nisc2.jpg",
       },
     ],
     billSpots: [
       {
-        text: "billSpot3",
-        video: "media/test_video.mp4",
-        frame: "media/test_image.png",
-      },
-      {
-        text: "billSpot4\n new line test3",
-        video: "media/test_video.mp4",
-        frame: "media/test_image.png",
+        text: "+1 Second\n\nHop into the abyss and use the bullet. It should take you to the end of the track\nAlternatively, you can use it in the cut a little bit after jumping",
+        video: "media/GCN_Dino_Dino_Jungle/billSpot1.mp4",
+        frame: "media/GCN_Dino_Dino_Jungle/billSpot1.jpg",
       },
     ],
   },
@@ -282,6 +277,7 @@ function showVideo(video, imgElement) {
 
   const panel = imgElement.parentElement;
   panel.appendChild(video);
+  video.currentTime = 0;
   video.play();
 
   video.addEventListener("ended", () => {
