@@ -31,13 +31,30 @@
         <div class="strategy">
             <img class="track-image" style="display: none; width: 100%; height: auto;">
             <b class="track-name" style="display: none;"></b>
-            <p class="track-type"><b>Track Type</b> : </p>
+            <p class="track-type"><b>Track Type</b>: </p>
             <p class="strategy-description"></p>
         </div>
         <div class="shortcuts" style="display: none;"></div>
         <div class="bill-spots" style="display: none;"></div>
-
     </main>
+
+    <img class="help-icon" id="helpIcon" src="media/question_mark.png" alt="Help">
+    <div id="overlay" class="overlay" style="display: none;"></div>
+    <div id="helpPanel" class="help-panel" style="display: none;">
+        <p>
+            Map color coding:<br><br>Every map image of a track has lines of some color. Here is what the colors mean:<br><br>
+            <span style="color: rgb(75, 75, 255);">Blue: </span>
+            A normal shortcut<br>
+            <span style="color: rgb(255, 75, 75);">Red: </span>
+            A no item shortcut (nisc)<br>
+            <span style="color: #a249a4;">Purple: </span>
+            A slower route that has more items (for bagging)<br><br>
+            Bill spots:<br><br>
+            A bill spot can be an extension or a shortcut you can take with the bullet.
+            All bullet extensions need to be used in last place because the time you spend in a bullet depends on the placement you used it in.
+        </p>
+        <button id="hideHelpBtn">Hide</button>
+    </div>
 
     <script src="trackGuide.js"></script>
 </body>
