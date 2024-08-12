@@ -45,7 +45,7 @@ const tracks = {
       "Running: I suggest you to run that track if you start in 1st or even 2nd, there are multiple shroomless cuts here as well that can lead you to run well. There also is a cannon in a track meaning that if there is a blue shell you might be able to dodge it in time in the cannon therefore giving you more chances to run peacefully the track. However be careful of the shocks because getting target shock'd in the middle of the shortcut in the cave section is very awkward.\n\nBagging: Multiple paths on this track leading you to be able to bag properly, you can start bagging at 1st boxes already and then if you want to increase the bagging, take one of the purple routes to be even further from 1st and then getting good items such as pulling the shock. I recommend you to not bag too much though because it can be a bit hard to come back if you're left too far behind, you should at least start to come back like mid lap 2 because there are no cuts on this track therefore making it hard to come back. If you have a shock, the best way to play it would be to target shock 1st or the people leading in general while they take the cut in the cave because target shocking people here is excellent.",
     shortcuts: [
       {
-        text: "This is the fastest path through that section. The easiest way to take it is to hop and then start a drift to avoid sliding out",
+        text: "This is the fastest path through that section. The easiest way to take it is to hop and after landing hop again to start a drift. This way you never slide out",
         video: "media/GCN_Dino_Dino_Jungle/nisc1.mp4",
         frame: "media/GCN_Dino_Dino_Jungle/nisc1.jpg",
       },
@@ -57,9 +57,14 @@ const tracks = {
     ],
     billSpots: [
       {
-        text: "Extension — +1 Second\n\nHop into the abyss and use the bullet. It should take you to the end of the track\nAlternatively, you can use it in the cut a little bit after jumping",
+        text: "+2 Seconds\n\nNot a very memorable spot and the bullet skips the shortcut but it's still very fast",
         video: "media/GCN_Dino_Dino_Jungle/billSpot1.mp4",
         frame: "media/GCN_Dino_Dino_Jungle/billSpot1.jpg",
+      },
+      {
+        text: "+1 Second\n\nUse it at that turn before the big shortcut. It takes you to the end of the track",
+        video: "media/GCN_Dino_Dino_Jungle/billSpot2.mp4",
+        frame: "media/GCN_Dino_Dino_Jungle/billSpot2.jpg",
       },
     ],
   },
