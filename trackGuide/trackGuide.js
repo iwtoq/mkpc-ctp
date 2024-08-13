@@ -68,6 +68,50 @@ const tracks = {
       },
     ],
   },
+  "3DS Neo Bowser City": {
+    trackImage: "media/3DS_Neo_Bowser_City/image.png",
+    trackType: "Runner/Bagger",
+    strategyDescription:
+      "Running: If you decide to run you should be careful of the last jump because it's a common target shock place. Watch out who's standing in last, that way you can predict if it'll be a good shock or not. Only a few cuts in this track, meaning that you can run it and hold the 1st place if there's no blue or shock. You should always take the tightest lines to increase your lead and also back your items, there are a lot of walls and also tight turns giving you chances to back your items there and hope to hit the people behind you.\n\nBagging: If you want to bag on this track you should hold your dodges when there's no possibilities to cut because shocks are frequent on this map as it's a 1 minute and 45 second track. You can also bag for items like mega/star and shrooms to be able to come back quickly, the ending cut is also very op if you take it well with good items, that way you can easily come back to the good places. If you have a shock, you should try to target shock the people in 1st and if it's not possible because too much people are in dodging items, just try to not use it too late or not in the cannon to be able to come back.\n\nShroomless cut in red: not really that much of a cut but you should always go in the left path unless you're bagging lap 1/2 so you can be faster by taking the boosts. It is way faster than the main road even if you skip a box (it remains better to take this route in all cases)",
+    shortcuts: [
+      {
+        text: "",
+        video: "media/3DS_Neo_Bowser_City/sc1.mp4",
+        frame: "media/3DS_Neo_Bowser_City/sc1.jpg",
+      },
+      {
+        text: "",
+        video: "media/3DS_Neo_Bowser_City/sc2.mp4",
+        frame: "media/3DS_Neo_Bowser_City/sc2.jpg",
+      },
+    ],
+    billSpots: [
+      {
+        text: "This is a bullet shortcut. Just hop and activate your bill before hitting the lava and if you took it well like in the image, your bill will cut that part, this is a very op cut so if you have a bill try to keep it until that strat unless you have to use it. You can easily come back to top placements with good items after that.",
+        video: "media/3DS_Neo_Bowser_City/billSpot1.mp4",
+        frame: "media/3DS_Neo_Bowser_City/billSpot1.jpg",
+      },
+    ],
+  },
+  "DS Delfino Square": {
+    trackImage: "media/DS_Delfino_Square/image.png",
+    trackType: "Runner/Bagger",
+    strategyDescription:
+      "Running: Mostly a running track so you should always try to run as it's a very short track with strats so you can easily take the lead if you know these cuts good enough. The 1st shroomless cut can be hard so if you don't feel like doing it in crucial places like lap 3, you should take the normal road and then access the 2nd shroomless cut which is easier. However, you also have less chances to take a blue than some other long maps.\n\nBagging: You can bag this track but you shouldn't wait too much to come back and not being left too far behind. If you're too far behind it's almost impossible to come back and end up in 1st. There is an alternative path at the beginning with a bridge section, you should go there if you want to bag at the beginning or in lap 2 because there's a double item box that can give you strong items. You can also decide to not take the cut at the end and go to the longer path because there's also a double item box there. For this route you should only do it in lap 1 because you would be left too far behind if you go for it at the end of the lap 2.",
+    shortcuts: [
+      {
+        text: "Can be hard depending on the way you take it, if you take it in a safe way (like in the video) it should be fine as there's a ramp but if you try to save time you could start a drift and not tricking on the ramp to gain time but it is more precise and way harder.",
+        video: "media/DS_Delfino_Square/nisc1.mp4",
+        frame: "media/DS_Delfino_Square/nisc1.jpg",
+      },
+      {
+        text: "Just release a smt into the dark brown part and hop out to not touch any off-road (note that only the dark brown part is off-road, not the light brown part)",
+        video: "media/DS_Delfino_Square/nisc2.mp4",
+        frame: "media/DS_Delfino_Square/nisc2.jpg",
+      },
+    ],
+    billSpots: [],
+  },
 };
 
 document.getElementById("results").style.display = "none";
