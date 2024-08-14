@@ -112,6 +112,51 @@ const tracks = {
     ],
     billSpots: [],
   },
+  "GBA Luigi Circuit": {
+    trackImage: "media/GBA_Luigi_Circuit/image.png",
+    trackType: "Bagger",
+    strategyDescription:
+      "It's better to bag on this track. There are a lot of cuts like on gba mario circuit but this track is also way longer than mario circuit, thus there will often be shock(s) and blue shell(s) on this track making running complicated. You can still try to run but I don't recommend you to if you aren't fast enough or not sure that you can take proper lines on it.",
+    shortcuts: [
+      {
+        text: "Hard one to take so I don't recommend it to try it on lap 3 unless you really need to come back. You should practice it in time trials to learn it properly because it's not the easiest cut, jumping over the water like that can seem easy but the cut is harder than what you think. Also, if you don't take that cut you won't lose a lot of time + you will get 2 items so it's always better to go on the normal road unless you're running.",
+        video: "media/GBA_Luigi_Circuit/nisc1.mp4",
+        frame: "media/GBA_Luigi_Circuit/nisc1.jpg",
+      },
+      {
+        text: "Skips an item.",
+        video: "media/GBA_Luigi_Circuit/sc1.mp4",
+        frame: "media/GBA_Luigi_Circuit/sc1.jpg",
+      },
+      {
+        text: "",
+        video: "media/GBA_Luigi_Circuit/sc2.mp4",
+        frame: "media/GBA_Luigi_Circuit/sc2.jpg",
+      },
+      {
+        text: "",
+        video: "media/GBA_Luigi_Circuit/sc3.mp4",
+        frame: "media/GBA_Luigi_Circuit/sc3.jpg",
+      },
+      {
+        text: "Skips a double item but you can still grab 1 box when taking it.",
+        video: "media/GBA_Luigi_Circuit/sc4.mp4",
+        frame: "media/GBA_Luigi_Circuit/sc4.jpg",
+      },
+      {
+        text: "",
+        video: "media/GBA_Luigi_Circuit/sc5.mp4",
+        frame: "media/GBA_Luigi_Circuit/sc5.jpg",
+      },
+    ],
+    billSpots: [
+      {
+        text: "This is a bullet shortcut. You have to do a hop over the water and (before hitting it for obvious reasons) activate your bill. But if you don't activate it at the right time, the bill will take the main road. If you use it in last it usually takes you to the finish line",
+        video: "media/GBA_Luigi_Circuit/billSpot1.mp4",
+        frame: "media/GBA_Luigi_Circuit/billSpot1.jpg",
+      },
+    ],
+  },
 };
 
 document.getElementById("results").style.display = "none";
