@@ -157,6 +157,31 @@ const tracks = {
       },
     ],
   },
+  "N64 Choco Mountain": {
+    trackImage: "media/N64_Choco_Mountain/image.png",
+    trackType: "Runner/Bagger",
+    strategyDescription:
+      "Running: Few cuts on this track and there's also a cannon + a teleporter so you have some possibilities to dodge a blue shell if it happens on a good moment. Try to take the best lines and back people if you have 2 protections. No strats at all on this track, it's all running and cuts barely save time making it a good track to run, also an easy one for anyone who can rd without difficulties. Just be careful of the rocks falling from the mountain as the original version and it should be fine.\n\nBagging: You can try bagging on this map but don't stay too far because it can be hard to come back as well, moreover if there's no blue shell(s) you have to expect dodging if you want to have a chance to come back 1st. If there's a shock you can be in a very good situation depending on when it happens though.",
+    shortcuts: [
+      {
+        text: "",
+        video: "media/N64_Choco_Mountain/sc1.mp4",
+        frame: "media/N64_Choco_Mountain/sc1.jpg",
+      },
+      {
+        text: "",
+        video: "media/N64_Choco_Mountain/sc2.mp4",
+        frame: "media/N64_Choco_Mountain/sc2.jpg",
+      },
+    ],
+    billSpots: [
+      {
+        text: "+1 Second\n\nUse before the cannon. Takes you to the end",
+        video: "media/N64_Choco_Mountain/billSpot1.mp4",
+        frame: "media/N64_Choco_Mountain/billSpot1.jpg",
+      }
+    ],
+  },
 };
 
 document.getElementById("results").style.display = "none";
