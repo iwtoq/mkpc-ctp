@@ -182,6 +182,55 @@ const tracks = {
       }
     ],
   },
+  "MK5(O) Haunted Village": {
+    trackImage: "media/MK5(O)_Haunted_Village/image.png",
+    trackType: "Runner",
+    strategyDescription:
+      "There's a lot of cannons and strats on this track, making it a running track. It's almost impossible to come back on it while bagging so you should always run it, shocks are uncommon on this track and if it happens they generally will at the end so if you ran the whole track you should be fine, also almost impossible to take a blue shell on it unless you get a very unlucky timing because you can dodge it in like 70% of the track.",
+    shortcuts: [
+      {
+        text: "",
+        video: "media/MK5(O)_Haunted_Village/nisc1.mp4",
+        frame: "media/MK5(O)_Haunted_Village/nisc1.jpg",
+      },
+      {
+        text: "",
+        video: "media/MK5(O)_Haunted_Village/nisc2.mp4",
+        frame: "media/MK5(O)_Haunted_Village/nisc2.jpg",
+      },
+      {
+        text: "",
+        video: "media/MK5(O)_Haunted_Village/nisc3.mp4",
+        frame: "media/MK5(O)_Haunted_Village/nisc3.jpg",
+      },
+      {
+        text: "",
+        video: "media/MK5(O)_Haunted_Village/nisc4.mp4",
+        frame: "media/MK5(O)_Haunted_Village/nisc4.jpg",
+      },
+      {
+        text: "",
+        video: "media/MK5(O)_Haunted_Village/sc1.mp4",
+        frame: "media/MK5(O)_Haunted_Village/sc1.jpg",
+      },
+      {
+        text: "",
+        video: "media/MK5(O)_Haunted_Village/sc2.mp4",
+        frame: "media/MK5(O)_Haunted_Village/sc2.jpg",
+      },
+      {
+        text: "",
+        video: "media/MK5(O)_Haunted_Village/sc3.mp4",
+        frame: "media/MK5(O)_Haunted_Village/sc3.jpg",
+      },
+      {
+        text: "",
+        video: "media/MK5(O)_Haunted_Village/sc4.mp4",
+        frame: "media/MK5(O)_Haunted_Village/sc4.jpg",
+      },
+    ],
+    billSpots: [],
+  },
 };
 
 document.getElementById("results").style.display = "none";
