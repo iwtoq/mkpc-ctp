@@ -231,6 +231,31 @@ const tracks = {
     ],
     billSpots: [],
   },
+  "Wii U Thwomp Ruins": {
+    trackImage: "media/WiiU_Thwomp_Ruins/image.png",
+    trackType: "Runner/Bagger",
+    strategyDescription:
+      "Running: By doing the shroomless cuts and taking tight lines you can run this track but be careful of the baggers because there's often blue(s) and shock(s) on this track.\n\nBagging: One powerful cut at the beginning that can be very good to come back for lap 2/3. If you want to bag you could go to the 1st purple path because there is a double item box at the end of it thefore giving you strong items. You can try to predict a shock or even bag for it in this map because it's powerful, don't stay too far behind though because the runner can easily fly away and get a huge lead as well.",
+    shortcuts: [
+      {
+        text: "Hard to take it shroomless, you have to get a smt and release it at the last moment to cut as much as you can and get to the ramp without hitting off-road (even if you fail it remains faster than going in the main road anyway). You should try to train it in time trial if you experience difficulties doing it properly.",
+        video: "media/WiiU_Thwomp_Ruins/nisc1.mp4",
+        frame: "media/WiiU_Thwomp_Ruins/nisc1.jpg",
+      },
+      {
+        text: "Just jump",
+        video: "media/WiiU_Thwomp_Ruins/nisc2.mp4",
+        frame: "media/WiiU_Thwomp_Ruins/nisc2.jpg",
+      },
+    ],
+    billSpots: [
+      {
+        text: "+2 Seconds\n\nThe spot where you use it is precise and if you use it a bit later it may not work",
+        video: "media/WiiU_Thwomp_Ruins/billSpot1.mp4",
+        frame: "media/WiiU_Thwomp_Ruins/billSpot1.jpg",
+      }
+    ],
+  },
 };
 
 document.getElementById("results").style.display = "none";
