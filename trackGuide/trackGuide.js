@@ -189,22 +189,22 @@ const tracks = {
       "There's a lot of cannons and strats on this track, making it a running track. It's almost impossible to come back on it while bagging so you should always run it, shocks are uncommon on this track and if it happens they generally will at the end so if you ran the whole track you should be fine, also almost impossible to take a blue shell on it unless you get a very unlucky timing because you can dodge it in like 70% of the track.",
     shortcuts: [
       {
-        text: "Thanks to the boost pannels you can cut a bit of off-road and gain time.",
+        text: "Thanks to the boost panels you can cut a bit of off-road and gain time.",
         video: "media/MK5(O)_Haunted_Village/nisc1.mp4",
         frame: "media/MK5(O)_Haunted_Village/nisc1.jpg",
       },
       {
-        text: "Thanks to the boost pannels you can cut a bit of off-road and gain time.",
+        text: "Thanks to the boost panels you can cut a bit of off-road and gain time.",
         video: "media/MK5(O)_Haunted_Village/nisc2.mp4",
         frame: "media/MK5(O)_Haunted_Village/nisc2.jpg",
       },
       {
-        text: "Thanks to the boost pannels you can... cut a bit of off-road and gain time",
+        text: "Thanks to the boost panels you can... cut a bit of off-road and gain time",
         video: "media/MK5(O)_Haunted_Village/nisc3.mp4",
         frame: "media/MK5(O)_Haunted_Village/nisc3.jpg",
       },
       {
-        text: "thanks to the boost pannels you can cut a bit of off-road and gain time... Release a smt at the end and hop out to not get slowed down by the off-road",
+        text: "thanks to the boost panels you can cut a bit of off-road and gain time... Release a smt at the end and hop out to not get slowed down by the off-road",
         video: "media/MK5(O)_Haunted_Village/nisc4.mp4",
         frame: "media/MK5(O)_Haunted_Village/nisc4.jpg",
       },
