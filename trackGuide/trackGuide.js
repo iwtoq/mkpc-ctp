@@ -97,7 +97,7 @@ const tracks = {
     trackImage: "media/DS_Delfino_Square/image.png",
     trackType: "Runner/Bagger",
     strategyDescription:
-      "Running: Mostly a running track so you should always try to run as it's a very short track with strats so you can easily take the lead if you know these cuts good enough. The 1st shroomless cut can be hard so if you don't feel like doing it in crucial places like lap 3, you should take the normal road and then access the 2nd shroomless cut which is easier. However, you also have less chances to take a blue than some other long maps.\n\nBagging: You can bag this track but you shouldn't wait too much to come back and not being left too far behind. If you're too far behind it's almost impossible to come back and end up in 1st. There is an alternative path at the beginning with a bridge section, you should go there if you want to bag at the beginning or in lap 2 because there's a double item box that can give you strong items. You can also decide to not take the cut at the end and go to the longer path because there's also a double item box there. For this route you should only do it in lap 1 because you would be left too far behind if you go for it at the end of the lap 2.",
+      "Running: Mostly a running track so you should always try to run as it's a very short track with strats so you can easily take the lead if you know these cuts good enough. The 1st shroomless cut can be hard so if you don't feel like doing it in crucial places like lap 3, you should take the normal road and then access the 2nd shroomless cut which is easier. However, you also have less chances to take a blue than some other long maps.\n\nBagging: You can bag this track but you shouldn't wait too much to come back and not being left too far behind. If you're too far behind it's almost impossible to come back and end up in 1st. There is an alternative path at the beginning with a bridge section, you should go there if you want to bag at the beginning or on lap 2 because there's a double item box that can give you strong items. You can also decide to not take the cut at the end and go to the longer path because there's also a double item box there. For this route you should only do it on lap 1 because you would be left too far behind if you go for it at the end of lap 2.",
     shortcuts: [
       {
         text: "Can be hard depending on the way you take it, if you take it in a safe way (like in the video) it should be fine as there's a ramp but if you try to save time you could start a drift and not tricking on the ramp to gain time but it is more precise and way harder.",
@@ -255,6 +255,103 @@ const tracks = {
         frame: "media/WiiU_Thwomp_Ruins/billSpot1.jpg",
       }
     ],
+  },
+  "Tour Sydney Sprint": {
+    trackImage: "media/Tour_Sydney_Sprint/image.png",
+    trackType: "Runner/Bagger",
+    strategyDescription:
+      "Running: When you start in 1st you can try running this map, be careful of shocks/blues because they're quite common due to the size of the map. Except lap 2, there are no cuts on the track so you have chances to increase your lead by backing your items. There are also cannons on this map giving you multiple opportunities to blue dodge.\n\nBagging: It's good to start bagging at the 1st item set of the second lap because there are multiple cuts in this lap that can gives you a good lead and opportunities to come back with good items or even to dodge a shock. Many shocks happen between mid and end lap 2.",
+    shortcuts: [
+      {
+        text: "",
+        video: "media/Tour_Sydney_Sprint/sc1.mp4",
+        frame: "media/Tour_Sydney_Sprint/sc1.jpg",
+      },
+      {
+        text: "",
+        video: "media/Tour_Sydney_Sprint/sc2.mp4",
+        frame: "media/Tour_Sydney_Sprint/sc2.jpg",
+      },
+      {
+        text: "",
+        video: "media/Tour_Sydney_Sprint/sc3.mp4",
+        frame: "media/Tour_Sydney_Sprint/sc3.jpg",
+      },
+      {
+        text: "",
+        video: "media/Tour_Sydney_Sprint/sc4.mp4",
+        frame: "media/Tour_Sydney_Sprint/sc4.jpg",
+      },
+    ],
+    billSpots: [
+      {
+        text: "+2 Seconds\n\n(there's probably a better way to take this one but I didn't find it)",
+        video: "media/Tour_Sydney_Sprint/billSpot1.mp4",
+        frame: "media/Tour_Sydney_Sprint/billSpot1.jpg",
+      },
+      {
+        text: "+2.5 Seconds\n\nUsing the same bridge, just on lap 3 and not 2",
+        video: "media/Tour_Sydney_Sprint/billSpot2.mp4",
+        frame: "media/Tour_Sydney_Sprint/billSpot2.jpg",
+      }
+    ],
+  },
+  "Wii U Ice Ice Outpost": {
+    trackImage: "media/WiiU_Ice_Ice_Outpost/image.png",
+    trackType: "Runner",
+    strategyDescription:
+      "This map is one of the toughest in ctp so if you master the shroomless cuts, it will give you a strong chance of winning. Few people know how to take all the shroomless cuts well because they are hard, so taking risks is highly rewarded if you can take the cuts properly. I suggest you to train them in time trial. There are also 2 cannons and more than half of blue shells are launched at this moment, making you able to dodge them. Thus you should always run this map and it's one of the best picks if you're 1st.\n\nBagging: It is a disadvantage to start in bottom placements in this track but if it happens, you haven't lost yet. There are 2 paths where you can try to bag a bit to get a double item box and come back. You shouldn't bag any more than that though because it's super hard to come back on this track as there are no off road shortcuts.",
+    shortcuts: [
+      {
+        text: "",
+        video: "media/WiiU_Ice_Ice_Outpost/nisc1.mp4",
+        frame: "media/WiiU_Ice_Ice_Outpost/nisc1.jpg",
+      },
+      {
+        text: "",
+        video: "media/WiiU_Ice_Ice_Outpost/nisc2.mp4",
+        frame: "media/WiiU_Ice_Ice_Outpost/nisc2.jpg",
+      },
+      {
+        text: "",
+        video: "media/WiiU_Ice_Ice_Outpost/nisc3.mp4",
+        frame: "media/WiiU_Ice_Ice_Outpost/nisc3.jpg",
+      },
+    ],
+    billSpots: [],
+  },
+  "MK(X) Bowser's Factory": {
+    trackImage: "media/MK(X)_Bowser's_Factory/image.png",
+    trackType: "Runner/Bagger",
+    strategyDescription:
+      "Running: If you're in the 1st place you can decide to run instantly, it's a map where you can get a big lead easily if you run it well and take tight lines. Many people hit the firebars and other decors so if you know the map well enough it is a good decision for you to run it. Be careful because it's still rare to get a blueless run on this track.\n\nBagging: If you bag you should start it at the beginning behind the 1st item set and come back in the next laps. You can dodge a shock and the 1st cut is op, especially on lap 3 when everyone is close, having mushrooms there is needed. You can also take the alternative path at the end of lap 1/2 to bag a bit. Many boxes on this track so you bag well and come back properly.",
+    shortcuts: [
+      {
+        text: "",
+        video: "media/MK(X)_Bowser's_Factory/sc1.mp4",
+        frame: "media/MK(X)_Bowser's_Factory/sc1.jpg",
+      },
+      {
+        text: "",
+        video: "media/MK(X)_Bowser's_Factory/sc2.mp4",
+        frame: "media/MK(X)_Bowser's_Factory/sc2.jpg",
+      },
+    ],
+    billSpots: [],
+  },
+  "3DS Rainbow Road": {
+    trackImage: "media/3DS_Rainbow_Road/image.png",
+    trackType: "Runner",
+    strategyDescription:
+      "This is a section track and there aren't any cuts, there are a lot of boosts in this track as well making it a running track because you can increase your lead quickly enough. It is very hard to come back on this track so I suggest you to never bag it. Instead, run it and take the tightest lines you can and don't forget to take the boost pannels and the shroomless cut.",
+    shortcuts: [
+      {
+        text: "One of the hardest (if not the hardest) shroomless cut of ctp. Slow down once you land after the cannon and turn back to the cut, then release a smt and jump to the other side. If you do it well enough you will be able to do it without falling, making you gain a lot of time. And even if you fail it and fall, you will respawn on the other edge and still gain time compared to the main route.",
+        video: "media/3DS_Rainbow_Road/nisc1.mp4",
+        frame: "media/3DS_Rainbow_Road/nisc1.jpg",
+      },
+    ],
+    billSpots: [],
   },
 };
 
