@@ -247,6 +247,11 @@ const tracks = {
         video: "media/WiiU_Thwomp_Ruins/nisc2.mp4",
         frame: "media/WiiU_Thwomp_Ruins/nisc2.jpg",
       },
+      {
+        text: "",
+        video: "media/WiiU_Thwomp_Ruins/sc1.mp4",
+        frame: "media/WiiU_Thwomp_Ruins/sc1.jpg",
+      },
     ],
     billSpots: [
       {
